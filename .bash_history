@@ -350,3 +350,23 @@ sudo reboot
 sudo node app.js
 node app.js
 sudo -i -u comedores_comunitarios
+Sudo apt-get update
+sudo apt-get update
+sudo apt-get install git
+git config --global user.name "laullaurado"
+git config --global user.email "laullaurador@gmail.com"
+sudo systemctl status mysql
+sudo apt-get remove --purge mysql-server mysql-client mysql-common
+sudo apt-get autoclean
+sudo apt-get autoremove
+sudo rm -rf /var/lib/mysql
+sudo systemctl status mysql
+npm uninstall mysql
+npm uninstall mysql2
+git init
+git add .
+git branch -m main
+git commit -m "Servidor y página web"
+git remote add origin https://github.com/laullaurado/server-app-dif.git
+git push -u origin main
+node app.js
