@@ -9,3 +9,4 @@
 2023-10-23 14:25:32 [INFO]: cfn: starting template registry setup.
 2023-10-23 14:25:32 [INFO]: cfn: template registry setup successful.
 2023-10-23 14:30:32 [INFO]: telemetry: sent batch (size=14)
+2023-10-23 14:35:32 [INFO]: telemetry: sent batch (size=2)
