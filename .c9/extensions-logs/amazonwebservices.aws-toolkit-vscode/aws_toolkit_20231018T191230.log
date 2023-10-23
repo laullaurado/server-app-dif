@@ -1,0 +1,12 @@
+2023-10-18 19:12:30 [ERROR]: log level: info
+2023-10-18 19:12:30 [INFO]: endpoints: retrieving AWS endpoints data
+2023-10-18 19:12:30 [INFO]: OS: Linux x64 6.2.0-1013-aws
+2023-10-18 19:12:30 [INFO]: AWS Cloud9 extension host:  1.68.1
+2023-10-18 19:12:30 [INFO]: AWS Toolkit:  1.72.0
+2023-10-18 19:12:30 [INFO]: node: 18.16.1
+2023-10-18 19:12:30 [WARN]: auth: error deleting old files in sso cache: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/.aws/sso/cache' [ENOENT]
+2023-10-18 19:12:30 [WARN]: AwsContext: no default region in credentials profile, falling back to us-east-1: 
+2023-10-18 19:12:31 [INFO]: cfn: starting template registry setup.
+2023-10-18 19:12:31 [INFO]: Log folder contains more than 100 logs or is over 100MB. Deleted the 81 oldest files
+2023-10-18 19:12:34 [INFO]: cfn: template registry setup successful.
+2023-10-18 19:17:31 [INFO]: telemetry: sent batch (size=14)

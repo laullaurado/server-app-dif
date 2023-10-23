@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@ionic/node-pty-prebuilt": "^0.9.1",
+    "nak": "https://d3kgj69l4ph6w4.cloudfront.net/static/cloud9ide-nak-3cb2f94.tar.gz",
+    "node-cleanup": "^2.1.2",
+    "tmp": "^0.0.33"
+  }
+}

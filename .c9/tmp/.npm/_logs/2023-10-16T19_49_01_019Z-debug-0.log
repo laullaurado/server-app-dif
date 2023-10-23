@@ -1,0 +1,147 @@
+0 verbose cli /home/ubuntu/.c9/node/bin/node /home/ubuntu/.c9/node/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/home/ubuntu/.c9/node/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 7ms
+9 timing config:load:env Completed in 2ms
+10 timing config:load:file:/home/ubuntu/.c9/.npmrc Completed in 0ms
+11 timing config:load:project Completed in 10ms
+12 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+13 timing config:load:user Completed in 0ms
+14 timing config:load:file:/home/ubuntu/.c9/node/etc/npmrc Completed in 3ms
+15 timing config:load:global Completed in 4ms
+16 timing config:load:setEnvs Completed in 2ms
+17 timing config:load Completed in 31ms
+18 timing npm:load:configload Completed in 31ms
+19 timing npm:load:mkdirpcache Completed in 2ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install tmp@0.0.33
+22 verbose argv "install" "--production" "tmp@0.0.33"
+23 timing npm:load:setTitle Completed in 4ms
+24 timing config:load:flatten Completed in 5ms
+25 timing npm:load:display Completed in 10ms
+26 verbose logfile logs-max:10 dir:/home/ubuntu/.c9/tmp/.npm/_logs/2023-10-16T19_49_01_019Z-
+27 verbose logfile /home/ubuntu/.c9/tmp/.npm/_logs/2023-10-16T19_49_01_019Z-debug-0.log
+28 timing npm:load:logFile Completed in 13ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 64ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 208ms
+35 timing idealTree:userRequests Completed in 9ms
+36 silly idealTree buildDeps
+37 silly fetch manifest tmp@0.0.33
+38 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+39 http fetch GET 200 https://registry.npmjs.org/tmp 351ms (cache miss)
+40 silly placeDep ROOT tmp@0.0.33 OK for:  want: 0.0.33
+41 silly fetch manifest os-tmpdir@~1.0.2
+42 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 33ms (cache revalidated)
+43 timing idealTree:#root Completed in 399ms
+44 silly placeDep ROOT os-tmpdir@1.0.2 OK for: tmp@0.0.33 want: ~1.0.2
+45 timing idealTree:node_modules/tmp Completed in 2ms
+46 timing idealTree:node_modules/os-tmpdir Completed in 0ms
+47 timing idealTree:buildDeps Completed in 402ms
+48 timing idealTree:fixDepFlags Completed in 1ms
+49 timing idealTree Completed in 626ms
+50 timing reify:loadTrees Completed in 627ms
+51 timing reify:diffTrees Completed in 5ms
+52 silly reify moves {}
+53 timing reify:retireShallow Completed in 1ms
+54 timing reify:createSparse Completed in 3ms
+55 timing reify:trashOmits Completed in 0ms
+56 timing reify:loadBundles Completed in 0ms
+57 silly audit bulk request {
+57 silly audit   '@ionic/node-pty-prebuilt': [ '0.9.1' ],
+57 silly audit   'ansi-regex': [ '2.1.1' ],
+57 silly audit   aproba: [ '1.2.0' ],
+57 silly audit   'are-we-there-yet': [ '1.1.7' ],
+57 silly audit   'base64-js': [ '1.5.1' ],
+57 silly audit   bl: [ '4.1.0' ],
+57 silly audit   'readable-stream': [ '3.6.2', '2.3.8' ],
+57 silly audit   buffer: [ '5.7.1' ],
+57 silly audit   chownr: [ '1.1.4' ],
+57 silly audit   'code-point-at': [ '1.1.0' ],
+57 silly audit   colors: [ '0.6.2' ],
+57 silly audit   'console-control-strings': [ '1.1.0' ],
+57 silly audit   'core-util-is': [ '1.0.3' ],
+57 silly audit   'decompress-response': [ '4.2.1' ],
+57 silly audit   'deep-extend': [ '0.6.0' ],
+57 silly audit   delegates: [ '1.0.0' ],
+57 silly audit   'detect-libc': [ '1.0.3' ],
+57 silly audit   'end-of-stream': [ '1.4.4' ],
+57 silly audit   'expand-template': [ '2.0.3' ],
+57 silly audit   'fs-constants': [ '1.0.0' ],
+57 silly audit   gauge: [ '2.7.4' ],
+57 silly audit   'github-from-package': [ '0.0.0' ],
+57 silly audit   'has-unicode': [ '2.0.1' ],
+57 silly audit   ieee754: [ '1.2.1' ],
+57 silly audit   inherits: [ '2.0.4' ],
+57 silly audit   ini: [ '1.3.8' ],
+57 silly audit   'is-fullwidth-code-point': [ '1.0.0' ],
+57 silly audit   isarray: [ '1.0.0' ],
+57 silly audit   isbinaryfile: [ '2.0.4' ],
+57 silly audit   'mimic-response': [ '2.1.0' ],
+57 silly audit   minimist: [ '1.2.8' ],
+57 silly audit   'mkdirp-classic': [ '0.5.3' ],
+57 silly audit   nak: [ '0.3.3' ],
+57 silly audit   nan: [ '2.18.0' ],
+57 silly audit   'napi-build-utils': [ '1.0.2' ],
+57 silly audit   'node-abi': [ '2.30.1' ],
+57 silly audit   'noop-logger': [ '0.1.1' ],
+57 silly audit   npmlog: [ '4.1.2' ],
+57 silly audit   'number-is-nan': [ '1.0.1' ],
+57 silly audit   'object-assign': [ '4.1.1' ],
+57 silly audit   once: [ '1.4.0' ],
+57 silly audit   'prebuild-install': [ '5.3.6' ],
+57 silly audit   'process-nextick-args': [ '2.0.1' ],
+57 silly audit   pump: [ '3.0.0' ],
+57 silly audit   rc: [ '1.2.8' ],
+57 silly audit   'safe-buffer': [ '5.1.2' ],
+57 silly audit   semver: [ '5.7.2' ],
+57 silly audit   'set-blocking': [ '2.0.0' ],
+57 silly audit   'signal-exit': [ '3.0.7' ],
+57 silly audit   'simple-concat': [ '1.0.1' ],
+57 silly audit   'simple-get': [ '3.1.1' ],
+57 silly audit   string_decoder: [ '1.1.1' ],
+57 silly audit   'string-width': [ '1.0.2' ],
+57 silly audit   'strip-ansi': [ '3.0.1' ],
+57 silly audit   'strip-json-comments': [ '2.0.1' ],
+57 silly audit   'tar-fs': [ '2.1.1' ],
+57 silly audit   'tar-stream': [ '2.2.0' ],
+57 silly audit   'tunnel-agent': [ '0.6.0' ],
+57 silly audit   'util-deprecate': [ '1.0.2' ],
+57 silly audit   'which-pm-runs': [ '1.1.0' ],
+57 silly audit   'wide-align': [ '1.1.5' ],
+57 silly audit   wrappy: [ '1.0.2' ],
+57 silly audit   tmp: [ '0.0.33' ],
+57 silly audit   'os-tmpdir': [ '1.0.2' ]
+57 silly audit }
+58 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz. Extracting by manifest.
+59 timing reifyNode:node_modules/os-tmpdir Completed in 29ms
+60 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz 78ms (cache miss)
+61 timing reifyNode:node_modules/tmp Completed in 85ms
+62 timing reify:unpack Completed in 86ms
+63 timing reify:unretire Completed in 1ms
+64 timing build:queue Completed in 0ms
+65 timing build:deps Completed in 0ms
+66 timing build Completed in 2ms
+67 timing reify:build Completed in 3ms
+68 timing reify:trash Completed in 0ms
+69 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 103ms
+70 timing auditReport:getReport Completed in 107ms
+71 silly audit report {}
+72 timing auditReport:init Completed in 0ms
+73 timing reify:audit Completed in 108ms
+74 timing reify:save Completed in 35ms
+75 timing reify Completed in 798ms
+76 silly ADD node_modules/os-tmpdir
+77 silly ADD node_modules/tmp
+78 timing command:install Completed in 817ms
+79 verbose exit 0
+80 timing npm Completed in 896ms
+81 info ok

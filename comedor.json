@@ -1,0 +1,94 @@
+{
+  resource: dbResources.table('comedor'),
+  options: {
+    properties: {
+      idcomedor: {
+        isVisible: false,
+      },
+      folio: {
+        type: 'number',
+      },
+      municipio: {
+        type: 'reference',
+        reference: 'municipio',
+        isVisible: false, // oculta el campo en el formulario
+      },
+      encargado: {
+        isVisible: {
+          edit: true,
+          show: true,
+          list: false,
+          filter: false,
+        },
+      },
+      usuario: {
+        isVisible: {
+          edit: true,
+          show: true,
+          list: false,
+          filter: false,
+        },
+      },
+      contrasena: {
+        type: 'password', // Tipo del campo
+        isVisible: {
+          edit: true,
+          show: false,
+          list: false,
+          filter: false,
+        },
+      },
+      costoracion: {
+        type: 'number', // Tipo del campo
+        isVisible: {
+          edit: true,
+          show: true,
+          list: false,
+          filter: false,
+        },
+      },
+      limitedonaciones: {
+        type: 'number', // Tipo del campo
+        isVisible: {
+          edit: true,
+          show: true,
+          list: false,
+          filter: false,
+        },
+        components: {
+          show: Components.GraficaShow
+        }
+      },
+      horarioapertura: {
+        type: 'text', // Tipo del campo
+        isVisible: false,
+      },
+      horariocierre: {
+        type: 'text', // Tipo del campo
+        isVisible: false,
+      },
+    },
+    navigation: null,
+  },
+  actions: {
+    new: {
+      before: async (request) => {
+        // Establece el id del municipio como 1 antes de guardar el nuevo comedor
+        request.payload.municipio = 1;
+        
+        return request;
+      },
+    },
+    // PDFGenerator: {
+    //   actionType: 'record',
+    //   component: Components.PDFGenerator,
+    //   handler: (request, response, context) => {
+    //     const { record, currentAdmin } = context;
+    //     return {
+    //       record: record.toJSON(currentAdmin),
+    //       url: pdfgenerator(record.toJSON(currentAdmin))
+    //     };
+    //   }
+    // }
+  },
+}

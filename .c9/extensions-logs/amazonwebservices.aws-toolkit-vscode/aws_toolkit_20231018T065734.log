@@ -1,0 +1,13 @@
+2023-10-18 06:57:34 [ERROR]: log level: info
+2023-10-18 06:57:34 [INFO]: endpoints: retrieving AWS endpoints data
+2023-10-18 06:57:34 [INFO]: OS: Linux x64 6.2.0-1013-aws
+2023-10-18 06:57:34 [INFO]: AWS Cloud9 extension host:  1.68.1
+2023-10-18 06:57:34 [INFO]: AWS Toolkit:  1.72.0
+2023-10-18 06:57:34 [INFO]: node: 18.16.1
+2023-10-18 06:57:34 [WARN]: auth: error deleting old files in sso cache: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/.aws/sso/cache' [ENOENT]
+2023-10-18 06:57:34 [WARN]: AwsContext: no default region in credentials profile, falling back to us-east-1: 
+2023-10-18 06:57:34 [INFO]: cfn: starting template registry setup.
+2023-10-18 06:57:35 [INFO]: cfn: template registry setup successful.
+2023-10-18 06:57:35 [WARN]: Failed to start log file watcher: Error: ENOSPC: System limit for number of file watchers reached, watch '/home/ubuntu/.c9/extensions-logs/amazonwebservices.aws-toolkit-vscode/aws_toolkit_20231018T065734.log' [ENOSPC]
+2023-10-18 07:02:34 [INFO]: telemetry: sent batch (size=14)
+2023-10-18 08:07:34 [INFO]: telemetry: sent batch (size=2)

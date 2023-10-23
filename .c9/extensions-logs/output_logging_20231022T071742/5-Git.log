@@ -1,0 +1,27 @@
+[2023-10-22T07:17:44.457Z] Log level: Info
+[2023-10-22T07:17:44.459Z] [info] Validating found git in: git
+[2023-10-22T07:17:44.566Z] [info] Using git 2.34.1 from git
+[2023-10-22T07:17:44.592Z] > git rev-parse --show-toplevel [5ms]
+[2023-10-22T07:17:44.592Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.614Z] > git rev-parse --show-toplevel [8ms]
+[2023-10-22T07:17:44.614Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.630Z] > git rev-parse --show-toplevel [4ms]
+[2023-10-22T07:17:44.630Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.640Z] > git rev-parse --show-toplevel [1ms]
+[2023-10-22T07:17:44.640Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.676Z] > git rev-parse --show-toplevel [27ms]
+[2023-10-22T07:17:44.676Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.739Z] > git rev-parse --show-toplevel [33ms]
+[2023-10-22T07:17:44.739Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.826Z] > git rev-parse --show-toplevel [63ms]
+[2023-10-22T07:17:44.826Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.859Z] > git rev-parse --show-toplevel [16ms]
+[2023-10-22T07:17:44.859Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.876Z] > git rev-parse --show-toplevel [3ms]
+[2023-10-22T07:17:44.876Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.901Z] > git rev-parse --show-toplevel [10ms]
+[2023-10-22T07:17:44.901Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.917Z] > git rev-parse --show-toplevel [1ms]
+[2023-10-22T07:17:44.917Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-10-22T07:17:44.931Z] > git rev-parse --show-toplevel [2ms]
+[2023-10-22T07:17:44.931Z] fatal: not a git repository (or any of the parent directories): .git
